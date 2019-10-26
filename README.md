@@ -223,3 +223,10 @@ Contentz support i18n out of the box for the fixed texts of the website, text li
 Supported languages are `es` for Spanish and `en` for English (default to English in case of invalid language code).
 
 If your language is not supported [add a JSON with the messages](https://github.com/sergiodxa/contentz/tree/master/src/messages) and [load it in the i18n lib](https://github.com/sergiodxa/contentz/blob/master/src/lib/i18n.js). Then send a PR to add it.
+
+## Dependencies 
+    chalk
+    command-exists
+    execa
+    has-module
+    meow
